@@ -37,6 +37,7 @@
 		18DFE9261ABF27A10065DCAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DFE9271ABF27A10065DCAC /* WJSimpleNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WJSimpleNetworkTests.swift; sourceTree = "<group>"; };
 		18DFE9381ABF292E0065DCAC /* WJSimpleNetworkTests-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WJSimpleNetworkTests-Bridge.h"; sourceTree = "<group>"; };
+		18DFE9391ABF2AA10065DCAC /* WJSimpleNetwork-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WJSimpleNetwork-Bridge.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +93,7 @@
 				18DFE9181ABF27A10065DCAC /* Images.xcassets */,
 				18DFE91A1ABF27A10065DCAC /* LaunchScreen.xib */,
 				18DFE9101ABF27A10065DCAC /* Info.plist */,
+				18DFE9391ABF2AA10065DCAC /* WJSimpleNetwork-Bridge.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -345,7 +347,7 @@
 				INFOPLIST_FILE = WJSimpleNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WJSimpleNetwork/WJSimpleNetwork-Bridge.h";
 			};
 			name = Debug;
 		};
@@ -356,7 +358,7 @@
 				INFOPLIST_FILE = WJSimpleNetwork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WJSimpleNetwork/WJSimpleNetwork-Bridge.h";
 			};
 			name = Release;
 		};
