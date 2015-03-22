@@ -13,6 +13,7 @@
 		18DFE9191ABF27A10065DCAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DFE9181ABF27A10065DCAC /* Images.xcassets */; };
 		18DFE91C1ABF27A10065DCAC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DFE91A1ABF27A10065DCAC /* LaunchScreen.xib */; };
 		18DFE9281ABF27A10065DCAC /* WJSimpleNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFE9271ABF27A10065DCAC /* WJSimpleNetworkTests.swift */; };
+		18DFE93B1ABF2AE90065DCAC /* String+Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DFE93A1ABF2AE90065DCAC /* String+Hash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		18DFE9271ABF27A10065DCAC /* WJSimpleNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WJSimpleNetworkTests.swift; sourceTree = "<group>"; };
 		18DFE9381ABF292E0065DCAC /* WJSimpleNetworkTests-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WJSimpleNetworkTests-Bridge.h"; sourceTree = "<group>"; };
 		18DFE9391ABF2AA10065DCAC /* WJSimpleNetwork-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WJSimpleNetwork-Bridge.h"; sourceTree = "<group>"; };
+		18DFE93A1ABF2AE90065DCAC /* String+Hash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Hash.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				18DFE9111ABF27A10065DCAC /* AppDelegate.swift */,
 				18DFE9131ABF27A10065DCAC /* ViewController.swift */,
+				18DFE93A1ABF2AE90065DCAC /* String+Hash.swift */,
 				18DFE90F1ABF27A10065DCAC /* Supporting Files */,
 			);
 			path = WJSimpleNetwork;
@@ -218,6 +221,7 @@
 			files = (
 				18DFE9141ABF27A10065DCAC /* ViewController.swift in Sources */,
 				18DFE9121ABF27A10065DCAC /* AppDelegate.swift in Sources */,
+				18DFE93B1ABF2AE90065DCAC /* String+Hash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
